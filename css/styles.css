@@ -309,7 +309,7 @@ section.module.parallax-1 {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
-  background-size: cover;
+  background-size:  cover;
 }
 
 @media all and (max-width: 960px) {
@@ -334,7 +334,12 @@ section.module.parallax-1 {
     width:  100%;
     display: block;
   }
+
   .skill p {
     font-size:  15px;
+  }
+
+  .section.module.parallax-1 {
+    background-size:  auto;
   }
 }
