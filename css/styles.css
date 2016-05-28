@@ -149,6 +149,7 @@ nav a:hover {
 
 .contact_content * {
   padding: 0;
+  text-align:  center;
 }
 
 .contact_links a:link {
@@ -183,8 +184,8 @@ h3 {
 }
 
 a {
-    text-decoration: none;
-    padding: 0;
+  text-decoration: none;
+  padding: 0;
 }
 
 ul {
