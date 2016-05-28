@@ -1,0 +1,322 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+    font-family: Lato, FontAwesome, Arial, sans-serif;
+    font-weight: 300;
+    padding: 0;
+}
+
+@keyframes pulse {
+  from {
+    transform: scale3d(1, 1, 1);
+  }
+
+  50% {
+    transform: scale3d(1.05, 1.05, 1.05);
+  }
+
+  to {
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  line-height: 1.5;
+  margin: 0;
+  font-size: 1em;
+}
+
+section {
+  text-align:  center;
+  display:  block;
+  padding:  80px 0;
+  margin:  0;
+  height:  auto;
+}
+
+.summary {
+  padding:  0 15%;
+  text-align: left;
+}
+
+nav {
+  /*top:  -45px;*/
+  overflow: hidden;
+  height: 45px;
+  padding: 0;
+  line-height: 40px;
+  padding: 0 10px;
+  position: fixed;
+  z-index: 2;
+  width: 100%;
+  color:  grey;
+  border-bottom:  solid 1px grey;
+  background-color:  white;
+}
+
+nav ul {
+  display:  block;
+  padding:  0;
+  margin:  auto;
+}
+
+nav li {
+  display: inline;
+  margin:  auto;
+  padding:  0 5px;
+}
+
+nav a {
+  display:  inline;
+}
+
+nav a:link {
+  color:  grey;
+}
+
+nav a:visited {
+  color:  grey;
+}
+
+nav a:hover {
+  color:  #6897bb;
+}
+
+#hero_section {
+  text-align:  center;
+  display:  block;
+  padding:  0;
+  width:  100%;
+  background-color: grey;
+  height:  700px;
+  position:  relative;
+  background-image: url("../img/macbook-image.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+#hero_content {
+  position:absolute;
+  top:50%;
+  left:50%;
+  margin-top: -145px;
+  margin-left: -130px;
+}
+
+#name, #title {
+  padding: 0;
+  display: block;
+  margin: auto;
+  color: white;
+}
+
+#image {
+    margin: auto;
+    max-height: 180px;
+    max-width: 180px;
+    background-color: white;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+#experience_section {
+  background-color: #808080;
+}
+
+#experience_section * {
+  color:  white;
+}
+
+#contact_section {
+  color:  white;
+  width:  100%;
+  height:  650px;
+  padding:  0;
+  background-color:#6897bb;
+  position:relative;
+}
+
+.contact_content {
+  position:  absolute;
+  top:  40%;
+  margin: auto;
+  left:  35%;
+}
+
+.contact_links a:link {
+  color:  green;
+  padding: 10px;
+}
+
+#contact_section * {
+  color:  white;
+}
+
+
+main {
+  /*overflow: hidden;*/
+  width: 100%;
+  /*float: right;*/
+  padding: 0;
+  color:  grey;
+}
+
+h1 {
+  font-weight: 900;
+  font-size: 1.5em;
+  margin:  5px 0;
+}
+
+h3 {
+  font-weight: 700;
+  font-size: 1.2em;
+  margin:  5px 0;
+}
+
+a {
+    text-decoration: none;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.social {
+  display:  block;
+  margin:  0;
+  padding:  0;
+  position:  fixed;
+  top:  100px;
+  width:  50px;
+  z-index:  0;
+  /*right:  0px;*/
+  right:  -50px;
+
+
+}
+
+.social a:link {
+  color:  grey;
+}
+
+.social a:visited {
+  color:  grey;
+}
+
+.social a:hover {
+  color:  #6897bb;
+}
+
+#skill_section {
+  display:  inline-block;
+  padding:  100px;
+  color:  grey;
+}
+
+.skill {
+  display: block;
+  overflow:  hidden;
+  float: left;
+  width:  20%;
+  height: auto;
+  padding:  50px;
+}
+
+.skill p {
+  text-align:  center;
+  padding:  0;
+  color:  grey;
+}
+
+#profile_section {
+  background-color:  #6897bb;
+}
+
+#profile_section > h1 {
+  color:  white;
+}
+
+#profile_section > p {
+  color:  white;
+}
+
+.links {
+  margin:  auto;
+}
+
+/*
+Back to top from:  http://html-tuts.com/back-to-top-button-jquery/
+*/
+
+a.back-to-top {
+	display: none;
+	width: 60px;
+	height: 60px;
+	position: fixed;
+  background: #6897bb url("../img/cd-top-arrow.svg") no-repeat center 43%;
+	z-index: 1;
+	right: 40px;
+	bottom: 40px;
+}
+
+.pulse {
+animation-name: pulse;
+}
+
+/*
+  Code referenced from simple parallax effect demo
+*/
+
+.parallax {
+  height:  600px;
+}
+
+section.module.parallax {
+  height: 600px;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+section.module.parallax h1 {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 48px;
+  line-height: 600px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+section.module.parallax-1 {
+  background-image: url("../img/toronto_streetcar_bw.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+@media all and (min-width: 600px) {
+  section.module h2 {
+    font-size: 42px;
+  }
+  section.module p {
+    font-size: 20px;
+  }
+  section.module.parallax h1 {
+    font-size: 96px;
+  }
+}
+@media all and (min-width: 960px) {
+  section.module.parallax h1 {
+    font-size: 160px;
+  }
+}
