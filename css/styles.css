@@ -143,14 +143,18 @@ nav a:hover {
 
 .contact_content {
   position:  absolute;
-  top:  40%;
-  margin: auto;
-  left:  35%;
+  top:  35%;
+  left: 28%;
+}
+
+.contact_content * {
+  padding: 0;
 }
 
 .contact_links a:link {
-  color:  green;
+  color:  grey;
   padding: 10px;
+  display:  inline;
 }
 
 #contact_section * {
@@ -197,8 +201,6 @@ ul {
   z-index:  0;
   /*right:  0px;*/
   right:  -50px;
-
-
 }
 
 .social a:link {
