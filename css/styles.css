@@ -340,6 +340,6 @@ section.module.parallax-1 {
   }
 
   .section.module.parallax-1 {
-    background-size:  auto;
-  }
+    max-height: 180px;
+    max-width: 180px;  }
 }
