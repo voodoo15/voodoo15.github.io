@@ -334,12 +334,10 @@ section.module.parallax-1 {
     width:  100%;
     display: block;
   }
-
   .skill p {
     font-size:  15px;
   }
-
   .section.module.parallax-1 {
-    max-height: 180px;
-    max-width: 180px;  }
+    display:  hidden;
+  }
 }
