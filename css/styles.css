@@ -212,7 +212,7 @@ ul {
 #skill_section {
   display:  inline-block;
   width:  100%;
-  padding:  100px;
+  padding:  10px;
   color:  grey;
   height:  auto;
 }
@@ -326,6 +326,10 @@ section.module.parallax-1 {
   html {
     font-size: 12px;
   }
+  .skill_container {
+    width:  33.333%;
+    display: block;
+  }
 }
 
 @media all and (max-width: 480px) {
@@ -333,5 +337,8 @@ section.module.parallax-1 {
   .skill_container {
     width:  100%;
     display: block;
+  }
+  .skill p {
+    font-size:  15px;
   }
 }
