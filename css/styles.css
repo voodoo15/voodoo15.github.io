@@ -97,12 +97,7 @@ nav a:hover {
 }
 
 #hero_content {
-  /*position:absolute;
-  top:50%;
-  left:50%;
-  margin-top: -145px;
-  margin-left: -130px;*/
-  padding-top:  250px;
+  padding-top:  200px;
 }
 
 #name, #title {
@@ -110,6 +105,7 @@ nav a:hover {
   display: block;
   margin: auto;
   color: white;
+  font-size:  3em;
 }
 
 #image {
@@ -212,7 +208,7 @@ ul {
 #skill_section {
   display:  inline-block;
   width:  100%;
-  padding:  10px;
+  padding:  80px 10px;
   color:  grey;
   height:  auto;
 }
