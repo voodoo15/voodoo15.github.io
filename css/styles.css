@@ -142,9 +142,11 @@ nav a:hover {
 }
 
 .contact_content {
-  position:  absolute;
-  top:  35%;
-  left: 28%;
+  position:absolute;
+  top:50%;
+  left:50%;
+  margin-top: -145px;
+  margin-left: -290px;
 }
 
 .contact_content * {
@@ -218,20 +220,30 @@ ul {
 
 #skill_section {
   display:  inline-block;
+  width:  100%;
   padding:  100px;
   color:  grey;
+  height:  auto;
 }
 
-.skill {
+.skill_container {
   display: block;
   overflow:  hidden;
   float: left;
   width:  20%;
+  min-width:  150px;
   height: auto;
-  padding:  50px;
+}
+
+.skill {
+  /*padding:  50px;*/
+  margin:  auto;
+  display:block;
+  width:  100%;
 }
 
 .skill p {
+  display:  block;
   text-align:  center;
   padding:  0;
   color:  grey;
@@ -307,19 +319,18 @@ section.module.parallax-1 {
   background-size: cover;
 }
 
-@media all and (min-width: 600px) {
-  section.module h2 {
-    font-size: 42px;
-  }
-  section.module p {
-    font-size: 20px;
-  }
-  section.module.parallax h1 {
-    font-size: 96px;
+@media all and (max-width: 480px) {
+  html {font-size: 10px;}
+  .skill_container {
+    width:  100%;
+    display: block;
   }
 }
-@media all and (min-width: 960px) {
-  section.module.parallax h1 {
-    font-size: 160px;
-  }
+
+@media all and (max-width: 768px) {
+  font-size: 12px;
+}
+
+@media all and (max-width: 960px) {
+  font-size: 16px;
 }
