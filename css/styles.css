@@ -329,19 +329,19 @@ section.module.parallax-1 {
   .section.module.parallax-1 {
     max-height: 180px;
     max-width: 180px;
-    background-image: url("../img/toronto_streetcar_bw_medium.jpg");
+    background-image: url("../img/toronto_streetcar_bw_medium.jpg") no-repeat center center fixed;
     height:  512px;
     background-size: contain;
     background-attachment:scroll;
   }
   #hero_section {
-    background-image: url("../img/macbook-image_medium.jpg");
+    background-image: url("../img/macbook-image_medium.jpg") no-repeat center center fixed;
     background-size:  cover;
     height:  512px;
-    background-attachment:scroll;
+    background-attachment:  scroll;
   }
   #hero_content {
-    padding-top: 50px;
+    padding-top:  50px;
   }
 }
 
