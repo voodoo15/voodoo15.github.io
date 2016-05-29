@@ -350,9 +350,12 @@ section.module.parallax-1 {
     display: block;
   }
   #hero_section {
-    background-image: url("../img/macbook-image_small.jpg");
-    background-size:  cover;
     background-repeat: no-repeat;
+    background: url("../img/macbook-image_small.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
   }
   .skill p {
     font-size:  15px;
