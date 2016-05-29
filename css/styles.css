@@ -356,6 +356,8 @@ section.module.parallax-1 {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    width: 100%;
+    height:  100%;
   }
   .skill p {
     font-size:  15px;
