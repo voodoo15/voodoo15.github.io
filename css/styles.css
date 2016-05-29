@@ -326,9 +326,8 @@ section.module.parallax-1 {
     width:  33.333%;
     display: block;
   }
-  .module1 {
+  .module {
     display:  none;
-  }
   }
   #hero_section {
     background-image: url("../img/macbook-image_medium.jpg") no-repeat center center fixed;
