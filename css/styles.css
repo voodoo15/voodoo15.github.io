@@ -38,8 +38,8 @@ section {
   text-align: left;
 }
 
-nav {
-  /*top:  -45px;*/
+.nav-hide {
+  top:  -45px;
   overflow: hidden;
   height: 45px;
   padding: 0;
@@ -51,6 +51,12 @@ nav {
   color:  grey;
   border-bottom:  solid 1px grey;
   background-color:  white;
+  transition: top 0.2s;
+}
+
+.nav-show {
+  top:  0px;
+  transition: top 0.2s;
 }
 
 nav ul {
@@ -150,6 +156,10 @@ nav a:hover {
   color:  grey;
   padding: 10px;
   display:  inline;
+}
+
+.contact_location {
+   display:  inline;
 }
 
 main {

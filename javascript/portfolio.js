@@ -54,8 +54,10 @@ $(document).on('ready page:load', function() {
   $(window).scroll(function() {
   	if ( $(window).scrollTop() > amountScrolled ) {
   		$('a.back-to-top').fadeIn('slow');
+      $('nav').addClass('nav-show');
   	} else {
   		$('a.back-to-top').fadeOut('slow');
+      $('nav').removeClass('nav-show');
   	};
   });
 });
