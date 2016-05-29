@@ -352,7 +352,7 @@ section.module.parallax-1 {
   .skill p {
     font-size:  15px;
   }
-  .section.module.parallax-1 {
+  .module {
     display:  none;
   }
 }
