@@ -326,20 +326,6 @@ section.module.parallax-1 {
     width:  33.333%;
     display: block;
   }
-}
-
-@media all and (max-width: 480px) {
-  html {font-size: 10px;}
-  .skill_container {
-    width:  100%;
-    display: block;
-  }
-  .skill p {
-    font-size:  15px;
-  }
-  .module {
-    display:  none;
-  }
   .section.module.parallax-1 {
     max-height: 180px;
     max-width: 180px;
@@ -354,5 +340,23 @@ section.module.parallax-1 {
   }
   #hero_content {
     padding-top: 50px;
+  }
+}
+
+@media all and (max-width: 480px) {
+  html {font-size: 10px;}
+  .skill_container {
+    width:  100%;
+    display: block;
+  }
+  #hero_section {
+    background-image: url("../img/macbook-image_small.jpg") no-repeat;
+    background-size:  contain;
+  }
+  .skill p {
+    font-size:  15px;
+  }
+  .module {
+    display:  none;
   }
 }
