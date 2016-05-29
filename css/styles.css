@@ -275,10 +275,11 @@ a.back-to-top {
 	width: 60px;
 	height: 60px;
 	position: fixed;
-  background: #6897bb url("../img/cd-top-arrow.svg") no-repeat center 43%;
+  /*background: #6897bb url("../img/cd-top-arrow.svg") no-repeat center 43%;*/
 	z-index: 1;
 	right: 40px;
 	bottom: 40px;
+  color:  #F0F1F3;
 }
 
 .pulse {
