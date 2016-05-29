@@ -330,6 +330,9 @@ and (orientation: landscape) {
   #hero_content {
     padding-top:  50px;
   }
+  .module {
+    display:  none;
+  }
 }
 
 @media all and (max-width: 768px) {
