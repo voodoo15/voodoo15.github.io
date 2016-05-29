@@ -326,6 +326,10 @@ section.module.parallax-1 {
     width:  33.333%;
     display: block;
   }
+  .section.module.parallax-1 {
+    max-height: 180px;
+    max-width: 180px;
+  }
 }
 
 @media all and (max-width: 480px) {
