@@ -343,7 +343,7 @@ section.module.parallax-1 {
   }
 }
 
-@media all and (max-width: 468px) {
+@media all and (max-width: 667px) {
   html {font-size: 10px;}
   .skill_container {
     width:  100%;
