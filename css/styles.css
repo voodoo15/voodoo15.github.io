@@ -94,6 +94,7 @@ nav a:hover {
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
+  background-attachment:scroll;
 }
 
 #hero_content {
@@ -310,6 +311,7 @@ section.module.parallax-1 {
   background-attachment: fixed;
   background-position: center;
   background-size:  cover;
+  background-attachment:scroll;
 }
 
 @media all and (max-width: 960px) {
@@ -332,11 +334,13 @@ section.module.parallax-1 {
     background-image: url("../img/toronto_streetcar_bw_medium.jpg");
     height:  512px;
     background-size: contain;
+    background-attachment:scroll;
   }
   #hero_section {
     background-image: url("../img/macbook-image_medium.jpg");
     background-size:  cover;
     height:  512px;
+    background-attachment:scroll;
   }
   #hero_content {
     padding-top: 50px;
