@@ -335,7 +335,11 @@ section.module.parallax-1 {
   }
   #hero_section {
     background-image: url("../img/macbook-image_small.jpg");
-    background-size: auto;
+    background-size:  cover;
+    height:  512px;
+  }
+  #hero_content {
+    padding-top: 50px;
   }
 }
 
