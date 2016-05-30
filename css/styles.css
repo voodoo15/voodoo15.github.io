@@ -436,12 +436,18 @@ section.module.parallax-1 {
   left: -30%;
   height: 30%;
   width: 25%;
-  background-color: #A8A8A8;
+  background-color: #383332;
   margin:  auto;
   z-index: 5;
 
   transition: left 0.25s;
+
 }
+
+.sidebar li {
+  padding: 5px;
+}
+
 
 .sidebar a:link {
   color:  white;
