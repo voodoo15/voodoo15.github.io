@@ -439,6 +439,7 @@ section.module.parallax-1 {
   background-color: #383332;
   margin:  auto;
   z-index: 5;
+  padding:  5px;
 
   transition: left 0.25s;
 
