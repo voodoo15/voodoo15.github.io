@@ -440,6 +440,7 @@ section.module.parallax-1 {
   margin:  auto;
   z-index: 5;
   padding:  5px;
+  opacity:  0.8;
 
   transition: left 0.25s;
 
