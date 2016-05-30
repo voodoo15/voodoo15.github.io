@@ -5,6 +5,10 @@
     padding: 0;
 }
 
+/*
+Animations reference
+*/
+
 @keyframes pulse {
   from {
     transform: scale3d(1, 1, 1);
@@ -18,6 +22,10 @@
     transform: scale3d(1, 1, 1);
   }
 }
+
+/*
+Main Section
+*/
 
 body {
   line-height: 1.5;
@@ -71,10 +79,6 @@ nav li {
   padding:  0 5px;
 }
 
-nav a {
-  display:  inline;
-}
-
 nav a:link {
   color:  grey;
 }
@@ -104,6 +108,44 @@ nav a:hover {
 
 #hero_content {
   padding-top:  200px;
+}
+
+#hero_links {
+  position:  absolute;
+  display:  inline;
+  top:  15px;
+  left:  15px;
+  height: 45px;
+  padding: 0;
+  line-height: 40px;
+  padding: 0 10px;
+  width:  100%;
+  margin:  0;
+  text-align:  left;
+}
+
+#hero_links ul {
+  display:  block;
+  padding:  0;
+  margin:  0;
+}
+
+#hero_links li {
+  display: inline;
+  margin:  auto;
+  padding:  0 5px;
+}
+
+#hero_links a:link {
+  color:  white;
+}
+
+#hero_links a:visited {
+  color:  white;
+}
+
+#hero_links a:hover {
+  color:  #6897bb;
 }
 
 #name, #title {
@@ -305,7 +347,7 @@ section.module.parallax {
   background-size: cover;
 }
 
-section.module.parallax h1 {
+/*section.module.parallax h1 {
   color: rgba(255, 255, 255, 0.8);
   font-size: 48px;
   line-height: 600px;
@@ -313,7 +355,7 @@ section.module.parallax h1 {
   text-align: center;
   text-transform: uppercase;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-}
+}*/
 
 section.module.parallax-1 {
   background-image: url("../img/toronto_streetcar_bw.jpg");
@@ -322,6 +364,10 @@ section.module.parallax-1 {
   background-position: center;
   background-size:  cover;
 }
+
+/*
+Media Queries Below
+*/
 
 @media all and (max-width: 960px) {
   html {
@@ -390,5 +436,12 @@ and (orientation: landscape) {
   }
   .module {
     display:  none;
+  }
+  nav {
+    display:  none;
+  }
+  a.back-to-top {
+    right:  10px;
+    bottom:  10px;
   }
 }
