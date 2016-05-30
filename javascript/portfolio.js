@@ -1,6 +1,8 @@
-// Borrowed code for smooth scroll from site:
-// http://www.learningjquery.com/2007/10/improved-animated-scrolling-script-for-same-page-links
 $(document).on('ready page:load', function() {
+
+  // Borrowed code for smooth scroll from site:
+  // http://www.learningjquery.com/2007/10/improved-animated-scrolling-script-for-same-page-links
+
   function filterPath(string) {
   return string
     .replace(/^\//,'')
@@ -60,4 +62,14 @@ $(document).on('ready page:load', function() {
       $('nav').removeClass('nav-show');
   	};
   });
+
+  //Hamburger icon and sidebar functionality
+  // Hamburger
+  $('#nav-toggle').on('click', function(e) {
+    e.preventDefault();
+
+    $(this).add('.sidebar').toggleClass('is-open');
+  })
+
+
 });

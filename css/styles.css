@@ -5,9 +5,9 @@
     padding: 0;
 }
 
-/*
-Animations reference
-*/
+/******************************************************************************
+  Animations reference
+******************************************************************************/
 
 @keyframes pulse {
   from {
@@ -23,9 +23,9 @@ Animations reference
   }
 }
 
-/*
-Main Section
-*/
+/******************************************************************************
+  Main Section
+******************************************************************************/
 
 body {
   line-height: 1.5;
@@ -45,6 +45,10 @@ section {
   padding:  0 15%;
   text-align: left;
 }
+
+/******************************************************************************
+  My nav rules
+******************************************************************************/
 
 .nav-hide {
   top:  -45px;
@@ -308,9 +312,9 @@ ul {
   margin:  auto;
 }
 
-/*
-Back to top from:  http://html-tuts.com/back-to-top-button-jquery/
-*/
+/******************************************************************************
+  Back to top from:  http://html-tuts.com/back-to-top-button-jquery/
+******************************************************************************/
 
 a.back-to-top {
 	display: none;
@@ -328,9 +332,9 @@ a.back-to-top {
 animation-name: pulse;
 }
 
-/*
+/******************************************************************************
   Code referenced from simple parallax effect demo
-*/
+******************************************************************************/
 
 .parallax {
   height:  600px;
@@ -365,9 +369,97 @@ section.module.parallax-1 {
   background-size:  cover;
 }
 
-/*
-Media Queries Below
-*/
+/******************************************************************************
+  Nav Toggle and sidebar rules on mobile device
+******************************************************************************/
+
+#nav-toggle {
+  position: fixed;
+  left: 5%;
+  top: 1%;
+  cursor: pointer;
+  padding: 30px 100px 36px 0px;
+  display:  none;
+  z-index: 5;
+}
+
+#nav-toggle span,
+#nav-toggle span:before,
+#nav-toggle span:after {
+  cursor: pointer;
+  height: 2px;
+  width: 15px;
+  background:  #F0F1F3;
+  position: absolute;
+  display: block;
+  content: '';
+
+  transition: all 0.25s;
+}
+
+#nav-toggle span:before {
+  top: -5px;
+}
+
+#nav-toggle span:after {
+  bottom: -5px;
+}
+
+#nav-toggle.is-open span {
+  background-color: transparent;
+
+  transition: left 0.25s;
+}
+
+#nav-toggle.is-open {
+  left: 30%;
+
+  transition: left 0.25s;
+
+}
+
+#nav-toggle.is-open span:before {
+  top: 0;
+  transform: rotateZ(45deg);
+}
+
+#nav-toggle.is-open span:after {
+  bottom: 0;
+  transform: rotateZ(-45deg);
+}
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: -30%;
+  height: 30%;
+  width: 25%;
+  background-color: #A8A8A8;
+  margin:  auto;
+  z-index: 5;
+
+  transition: left 0.25s;
+}
+
+.sidebar a:link {
+  color:  white;
+}
+
+.sidebar a:visited {
+  color:  white;
+}
+
+.sidebar a:hover {
+  color:  #6897bb;
+}
+
+.sidebar.is-open {
+  left: 0;
+}
+
+/******************************************************************************
+  Media Queries Below
+******************************************************************************/
 
 @media all and (max-width: 960px) {
   html {
@@ -441,7 +533,14 @@ and (orientation: landscape) {
     display:  none;
   }
   a.back-to-top {
-    right:  10px;
-    bottom:  10px;
+    right:  1%;
+    bottom:  1%;
+  }
+  #nav-toggle {
+    display:  block;
+  }
+
+  #hero_links {
+    display:  none;
   }
 }
