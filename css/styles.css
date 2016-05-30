@@ -434,7 +434,7 @@ section.module.parallax-1 {
   position: fixed;
   top: 0;
   left: -30%;
-  height: 30%;
+  height: auto;
   width: 25%;
   background-color: #383332;
   margin:  auto;
