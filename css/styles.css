@@ -381,6 +381,8 @@ section.module.parallax-1 {
   padding: 30px 100px 36px 0px;
   display:  none;
   z-index: 5;
+
+  transition: left 0.25s;
 }
 
 #nav-toggle span,
