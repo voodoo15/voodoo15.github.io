@@ -34,15 +34,15 @@ body {
 }
 
 section {
-  text-align:  center;
-  display:  block;
-  padding:  80px 0;
-  margin:  0;
-  height:  auto;
+  text-align: center;
+  display: block;
+  padding: 80px 0;
+  margin: 0;
+  height: auto;
 }
 
 .summary {
-  padding:  0 15%;
+  padding: 0 15%;
   text-align: left;
 }
 
@@ -51,7 +51,7 @@ section {
 ******************************************************************************/
 
 .nav-hide {
-  top:  -45px;
+  top: -45px;
   overflow: hidden;
   height: 45px;
   padding: 0;
@@ -60,49 +60,49 @@ section {
   position: fixed;
   z-index: 2;
   width: 100%;
-  color:  grey;
-  border-bottom:  solid 1px grey;
-  background-color:  white;
+  color: grey;
+  border-bottom: solid 1px grey;
+  background-color: white;
   transition: top 0.2s;
 }
 
 .nav-show {
-  top:  0px;
+  top: 0px;
   transition: top 0.2s;
 }
 
 nav ul {
-  display:  block;
-  padding:  0;
-  margin:  auto;
+  display: block;
+  padding: 0;
+  margin: auto;
 }
 
 nav li {
   display: inline;
-  margin:  auto;
-  padding:  0 5px;
+  margin: auto;
+  padding: 0 5px;
 }
 
 nav a:link {
-  color:  grey;
+  color: grey;
 }
 
 nav a:visited {
-  color:  grey;
+  color: grey;
 }
 
 nav a:hover {
-  color:  #6897bb;
+  color: #6897bb;
 }
 
 #hero_section {
-  text-align:  center;
-  display:  block;
-  padding:  0;
-  width:  100%;
+  text-align: center;
+  display: block;
+  padding: 0;
+  width: 100%;
   background-color: grey;
-  height:  700px;
-  position:  relative;
+  height: 700px;
+  position: relative;
   background-image: url("../img/macbook-image.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -111,45 +111,45 @@ nav a:hover {
 }
 
 #hero_content {
-  padding-top:  200px;
+  padding-top: 200px;
 }
 
 #hero_links {
-  position:  absolute;
-  display:  inline;
-  top:  15px;
-  left:  15px;
+  position: absolute;
+  display: inline;
+  top: 15px;
+  left: 15px;
   height: 45px;
   padding: 0;
   line-height: 40px;
   padding: 0 10px;
-  width:  100%;
-  margin:  0;
-  text-align:  left;
+  width: 100%;
+  margin: 0;
+  text-align: left;
 }
 
 #hero_links ul {
-  display:  block;
-  padding:  0;
-  margin:  0;
+  display: block;
+  padding: 0;
+  margin: 0;
 }
 
 #hero_links li {
   display: inline;
-  margin:  auto;
-  padding:  0 5px;
+  margin: auto;
+  padding: 0 5px;
 }
 
 #hero_links a:link {
-  color:  white;
+  color: white;
 }
 
 #hero_links a:visited {
-  color:  white;
+  color: white;
 }
 
 #hero_links a:hover {
-  color:  #6897bb;
+  color: #6897bb;
 }
 
 #name, #title {
@@ -157,16 +157,16 @@ nav a:hover {
   display: block;
   margin: auto;
   color: white;
-  font-size:  3em;
+  font-size: 3em;
 }
 
 #image {
-    margin: auto;
-    max-height: 180px;
-    max-width: 180px;
-    background-color: white;
-    border-radius: 50%;
-    border: 2px solid white;
+   margin: auto;
+   max-height: 180px;
+   max-width: 180px;
+   background-color: white;
+   border-radius: 50%;
+   border: 2px solid white;
 }
 
 #experience_section {
@@ -174,38 +174,48 @@ nav a:hover {
 }
 
 #experience_section * {
-  color:  white;
+  color: white;
 }
 
 #contact_section {
-  width:  100%;
-  height:  650px;
-  padding:  0;
+  width: 100%;
+  height: 650px;
+  padding: 0;
   background-color:#6897bb;
   /*position:relative;*/
 }
 
 .contact_content * {
   padding: 0;
-  text-align:  center;
+  text-align: center;
 }
 
 #contact_section * {
-  color:  white;
+  color: white;
 }
 
 .contact_content {
   padding-top: 200px;
 }
 
-.contact_links a:link {
-  color:  grey;
+.contact_links a:link, a:visited {
+  color: white;
   padding: 10px;
-  display:  inline;
+  display: inline;
+}
+
+.contact_links a:hover i {
+  animation-name: pulse;
+  animation-duration: 1s;
+}
+
+.resume:hover h3 {
+  animation-name: pulse;
+  animation-duration: 1s;
 }
 
 .contact_location {
-   display:  inline;
+   display: inline;
 }
 
 main {
@@ -213,19 +223,19 @@ main {
   width: 100%;
   /*float: right;*/
   padding: 0;
-  color:  grey;
+  color: grey;
 }
 
 h1 {
   font-weight: 900;
   font-size: 1.5em;
-  margin:  5px 0;
+  margin: 5px 0;
 }
 
 h3 {
   font-weight: 700;
   font-size: 1.2em;
-  margin:  5px 0;
+  margin: 5px 0;
 }
 
 a {
@@ -234,82 +244,84 @@ a {
 }
 
 ul {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 .social {
-  display:  block;
-  margin:  0;
-  padding:  0;
-  position:  fixed;
-  top:  100px;
-  width:  50px;
-  z-index:  0;
-  /*right:  0px;*/
-  right:  -50px;
+  display: block;
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  top: 100px;
+  width: 50px;
+  z-index: 0;
+  /*right: 0px;*/
+  right: -50px;
 }
 
 .social a:link {
-  color:  grey;
+  color: grey;
 }
 
 .social a:visited {
-  color:  grey;
+  color: grey;
 }
 
 .social a:hover {
-  color:  #6897bb;
+  color: #6897bb;
+  animation-name: pulse;
+  animation-duration:  1s;
 }
 
 #skill_section {
-  display:  inline-block;
-  width:  100%;
-  padding:  80px 10px;
-  color:  grey;
-  height:  auto;
+  display: inline-block;
+  width: 100%;
+  padding: 80px 10px;
+  color: grey;
+  height: auto;
 }
 
 .skill_container {
   display: block;
-  overflow:  hidden;
+  overflow: hidden;
   float: left;
-  width:  20%;
-  min-width:  150px;
+  width: 20%;
+  min-width: 150px;
   height: auto;
 }
 
 .skill {
-  margin:  auto;
+  margin: auto;
   display: block;
-  width:  100%;
+  width: 100%;
 }
 
 .skill > .c100 {
-  margin:  auto;
+  margin: auto;
   display: block;
 }
 
 .skill p {
-  display:  block;
-  text-align:  center;
-  padding:  0;
-  color:  grey;
+  display: block;
+  text-align: center;
+  padding: 0;
+  color: grey;
 }
 
 #profile_section {
-  background-color:  #6897bb;
+  background-color: #6897bb;
 }
 
 #profile_section > h1 {
-  color:  white;
+  color: white;
 }
 
 #profile_section > p {
-  color:  white;
+  color: white;
 }
 
 .links {
-  margin:  auto;
+  margin: auto;
 }
 
 /******************************************************************************
@@ -325,11 +337,7 @@ a.back-to-top {
 	z-index: 1;
 	right: 25px;
 	bottom: 25px;
-  color:  #F0F1F3;
-}
-
-.pulse {
-animation-name: pulse;
+  color: #F0F1F3;
 }
 
 /******************************************************************************
@@ -337,7 +345,7 @@ animation-name: pulse;
 ******************************************************************************/
 
 .parallax {
-  height:  600px;
+  height: 600px;
 }
 
 section.module.parallax {
@@ -366,7 +374,7 @@ section.module.parallax-1 {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
-  background-size:  cover;
+  background-size: cover;
 }
 
 /******************************************************************************
@@ -379,7 +387,7 @@ section.module.parallax-1 {
   top: 1%;
   cursor: pointer;
   padding: 30px 100px 36px 0px;
-  display:  none;
+  display: none;
   z-index: 5;
 
   transition: left 0.25s;
@@ -391,7 +399,7 @@ section.module.parallax-1 {
   cursor: pointer;
   height: 2px;
   width: 15px;
-  background:  #F0F1F3;
+  background: #F0F1F3;
   position: absolute;
   display: block;
   content: '';
@@ -437,10 +445,10 @@ section.module.parallax-1 {
   height: auto;
   width: 25%;
   background-color: #383332;
-  margin:  auto;
+  margin: auto;
   z-index: 5;
-  padding:  5px;
-  opacity:  0.8;
+  padding: 5px;
+  opacity: 0.8;
 
   transition: left 0.25s;
 
@@ -452,15 +460,15 @@ section.module.parallax-1 {
 
 
 .sidebar a:link {
-  color:  white;
+  color: white;
 }
 
 .sidebar a:visited {
-  color:  white;
+  color: white;
 }
 
 .sidebar a:hover {
-  color:  #6897bb;
+  color: #6897bb;
 }
 
 .sidebar.is-open {
@@ -473,24 +481,24 @@ section.module.parallax-1 {
 
 @media all and (max-width: 960px) {
   html {
-    font-size: 16px;
+  font-size: 16px;
   }
 }
 
-@media all and (max-width:  1024px)
+@media all and (max-width: 1024px)
 and (orientation: landscape) {
   html {font-size: 12px;}
   #hero_section {
     background-image: url("../img/macbook-image_medium.jpg") no-repeat center center fixed;
-    background-size:  cover;
-    height:  512px;
-    background-attachment:  scroll;
+    background-size: cover;
+    height: 512px;
+    background-attachment: scroll;
   }
   #hero_content {
-    padding-top:  50px;
+    padding-top: 50px;
   }
   .module {
-    display:  none;
+    display: none;
   }
 }
 
@@ -499,27 +507,27 @@ and (orientation: landscape) {
     font-size: 12px;
   }
   .skill_container {
-    width:  33.333%;
+    width: 33.333%;
     display: block;
   }
   .module {
-    display:  none;
+    display: none;
   }
   #hero_section {
     background-image: url("../img/macbook-image_medium.jpg") no-repeat center center fixed;
-    background-size:  cover;
-    height:  512px;
-    background-attachment:  scroll;
+    background-size: cover;
+    height: 512px;
+    background-attachment: scroll;
   }
   #hero_content {
-    padding-top:  50px;
+    padding-top: 50px;
   }
 }
 
 @media all and (max-width: 667px) {
   html {font-size: 10px;}
   .skill_container {
-    width:  100%;
+    width: 100%;
     display: block;
   }
   #hero_section {
@@ -530,27 +538,27 @@ and (orientation: landscape) {
     -o-background-size: cover;
     background-size: cover;
     width: 100%;
-    height:  100%;
+    height: 100%;
     background-attachment:scroll;
   }
   .skill p {
-    font-size:  15px;
+    font-size: 15px;
   }
   .module {
-    display:  none;
+    display: none;
   }
   nav {
-    display:  none;
+    display: none;
   }
   a.back-to-top {
-    right:  1%;
-    bottom:  1%;
+    right: 1%;
+    bottom: 1%;
   }
   #nav-toggle {
-    display:  block;
+    display: block;
   }
 
   #hero_links {
-    display:  none;
+    display: none;
   }
 }
