@@ -340,6 +340,11 @@ a.back-to-top {
   color: #F0F1F3;
 }
 
+a.back-to-top:hover {
+  animation-name: pulse;
+  animation-duration: 1s;
+}
+
 /******************************************************************************
   Code referenced from simple parallax effect demo
 ******************************************************************************/
