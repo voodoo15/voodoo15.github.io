@@ -214,8 +214,17 @@ nav a:hover {
   animation-duration: 1s;
 }
 
-.contact_info > i {
-   display: inline;
+.contact_info {
+   display: block;
+}
+
+.contact_info h3 {
+  display:  inline;
+}
+
+.contact_info * {
+  /*display:  inline;*/
+  padding:  0 10px;
 }
 
 main {
@@ -366,8 +375,8 @@ section.module.parallax {
 
 section.module.parallax h1 {
   color: white;
-  font-size: 48px;
-  line-height: 600px;
+  font-size: 2em;
+  line-height: 15em;
   font-weight: 900;
   text-align: center;
   text-transform: uppercase;
