@@ -333,6 +333,15 @@ ul {
   margin: auto;
 }
 
+#projects_section {
+  background-color: #6897bb;
+  color: white;
+}
+
+.projects {
+  
+}
+
 /******************************************************************************
   Back to top from:  http://html-tuts.com/back-to-top-button-jquery/
 ******************************************************************************/
