@@ -338,6 +338,10 @@ ul {
   color: white;
 }
 
+#project_section a:link a:visited {
+  color: white;
+}
+
 /******************************************************************************
   Back to top from:  http://html-tuts.com/back-to-top-button-jquery/
 ******************************************************************************/
