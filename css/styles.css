@@ -342,6 +342,10 @@ ul {
   color: white;
 }
 
+#project_section a:hover {
+  color: grey;
+}
+
 /******************************************************************************
   Back to top from:  http://html-tuts.com/back-to-top-button-jquery/
 ******************************************************************************/
