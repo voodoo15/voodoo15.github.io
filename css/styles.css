@@ -356,7 +356,7 @@ ul {
 .bullet li {
   display: list-item !important;
   list-style-type: circle !important;
-  padding: 0 15%;
+  margin: 0 17%;
   text-align: left;
 }
 
