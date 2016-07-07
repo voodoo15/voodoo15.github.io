@@ -223,7 +223,7 @@ nav a:hover {
 }
 
 .contact_info * {
-  /*display:  inline;*/
+  display:  inline;
   padding:  0 10px;
 }
 
@@ -344,6 +344,20 @@ ul {
 
 #project_section a:hover {
   color: grey;
+}
+
+.bullet ul {
+  display: list-item !important;
+  list-style-type: circle !important;
+  margin: 0;
+  height: auto;
+}
+
+.bullet li {
+  display: list-item !important;
+  list-style-type: circle !important;
+  padding: 0 15%;
+  text-align: left;
 }
 
 /******************************************************************************
