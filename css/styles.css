@@ -338,6 +338,11 @@ ul {
   color: white;
 }
 
+#project_section img {
+  width: 65%;
+  height: auto;
+}
+
 #project_section a:link {
   color: white;
 }
